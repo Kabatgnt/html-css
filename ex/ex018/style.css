@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+
+body {
+    font: 16px 'Tangerine', Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #9E80A5;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Tangerine', Arial, Helvetica, sans-serif;
+    color: #FAE4AF;
+}
+
+h2 {
+    font-family: 'Tangerine', Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    color: #FAE4AF;
+}
+
+p {
+    font-family: 'Tangerine', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    color: #ACFADE;
+}

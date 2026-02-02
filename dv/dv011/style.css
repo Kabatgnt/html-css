@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(./img/espaco\ copy.jpg);
+}
+
+.imagem {
+    margin: 50px;
+    position: relative;
+}
+
+.imagem > img {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    height: 500px;
+    width: auto;
+    margin: auto;
+}

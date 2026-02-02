@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* Medidas Absolutas
+    cm, mm, in, px, pt, pc
+
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+    16px geralmente e = 1em
+    */
+    font-size: 1em;
+    font-weight: normal;     /* Peso da fonte weight= peso */
+
+    /* Valores do weight= 
+    lighter normal bold bolder
+    Numerica
+    100-900
+
+    */
+}
+
+h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+    /* Shorthand font
+    font-style -> font-weight -> font-size -> font-family
+    */
+    font: italic bold 3em 'Courier New', Courier, monospace;
+}
+
+h2 {
+    font: bold 2em 'Courier New', Courier, monospace;
+}
+
