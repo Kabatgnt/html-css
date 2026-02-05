@@ -31,7 +31,7 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 4em
+    font-size: 10vh;
 }
 
 header > p {
@@ -54,7 +54,11 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 2em;
+    font-size: 3.5vw;
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 .normal {
@@ -65,11 +69,26 @@ section {
 .imagem {
     background-color: rgb(53, 53, 53);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.253);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .imagem > p {
-    background-color: rgba(0, 0, 0, 0.254);
-    width: 400px;
+    background-color: rgba(0, 0, 0, 0.349);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0); 
+}
+
+#img01 {
+    background-image: url(../img/background001.jpg);
+    background-position: right center;
+}
+
+#img02 {
+    background-image: url(../img/background002.jpg);
+    background-position: right center;
 }
 
 footer {
