@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    
+
+
+    <script>
+        var nome = window.prompt('Qual seu nome?')
+        document.write(`Olá, ${nome}! Seu nome tem ${nome.length} letras.`)
+
+
+
+        /*
+            Formatando Strings
+
+            s.length               = quantos caracteres a string tem
+            s.toUpperCase()        = tudo para letras Maiúsculas
+            s.toLowerCase()        = tudo para letras Minúsculas
+         */
+
+         /*
+            Formatando Números
+
+            n.toFixed(2) = você colocar um numero exemplo 13.3 com .toFixed(2) ele vai ficar 13.30 dependendo de quantas casas você colocar no () por exemplo se eu colocar 3 vai ficar .toFixed(3) 13.300
+            n.toFixed(2).replace(".", ",") = aqui troquei o . por , 
+            n1.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'}) = aqui coloquei na formatação pt-br
+         */
+    </script>
+</body>
+</html>
