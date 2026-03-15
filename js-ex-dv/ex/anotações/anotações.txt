@@ -1,0 +1,43 @@
+// (number + number) adição
+        // (string + string) concatenação
+        /* 
+            Converção de String = Number
+
+        Number.parseInt(n) = numeros inteiros
+        Nuber.parseFloat(n) = numeros reais
+        Number(n) = ele vai decidir se e real ou inteiro
+
+            Converção de Number = String
+
+        String(n)
+        n.toString()
+         */
+
+         /*
+        'Estou aprendendo' + s = Usa concatenação
+        `Estou aprendendo ${s}` = Usa tamplete string
+         */
+
+         /*
+            Formatando Strings
+
+            s.length               = quantos caracteres a string tem
+            s.toUpperCase()        = tudo para letras Maiúsculas
+            s.toLowerCase()        = tudo para letras Minúsculas
+         */
+
+         /*
+            Formatando Strings
+
+            s.length               = quantos caracteres a string tem
+            s.toUpperCase()        = tudo para letras Maiúsculas
+            s.toLowerCase()        = tudo para letras Minúsculas
+         */
+
+         /*
+            Formatando Números
+
+            n.toFixed(2) = você colocar um numero exemplo 13.3 com .toFixed(2) ele vai ficar 13.30 dependendo de quantas casas você colocar no () por exemplo se eu colocar 3 vai ficar .toFixed(3) 13.300
+            n.toFixed(2).replace(".", ",") = aqui troquei o . por , 
+            n1.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'}) = aqui coloquei na formatação pt-br
+         */
